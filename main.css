@@ -2,10 +2,28 @@ body {
     margin: 0;
 }
 
+.wrapper {
+
+}
+
 header {
+    display: flex;
+    align-items: center;
     background-color: #1B242F;
+    height: 2.5em;
+    min-height: 100%;
+    max-height: 100vh;
+    border-bottom: solid .3em #18A7B5;   
 }
 
 a {
     color: white;
+    font-size: 25px;
+    margin-left: 2em;
+    text-decoration: none;
+    font-family: Helvetica, sans-serif
+}
+
+a:hover {
+  color: #FF7170;
 }
