@@ -4,6 +4,7 @@ body {
 
 .wrapper {
   width: auto;
+  background-color: gray;
 }
 
 header {
@@ -35,6 +36,6 @@ h1 {
 
 img {
   display: block;
-  margin: 0 auto;
-  padding: 10px;
+  margin: 10px auto;
+  border: solid 3px #18A7B5;
 }
