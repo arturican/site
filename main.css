@@ -1,20 +1,21 @@
 body {
     margin: 0;
+    box-sizing: border-box;
 }
 
-.wrapper {
-
+@media (min-width: 900px){
+    header {
+        display: flex;
+        align-items: center;
+        background-color: #1B242F;
+        height: 2.5em;
+        min-height: 100%;
+        max-height: 100vh;
+        border-bottom: solid .3em #18A7B5;
+        
+    }
 }
 
-header {
-    display: flex;
-    align-items: center;
-    background-color: #1B242F;
-    height: 2.5em;
-    min-height: 100%;
-    max-height: 100vh;
-    border-bottom: solid .3em #18A7B5;   
-}
 
 a {
     color: white;
