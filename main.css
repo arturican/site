@@ -1,5 +1,6 @@
 body {
     margin: 0;
+    box-sizing: border-box;
 }
 
 .wrapper {
@@ -16,6 +17,7 @@ header {
     max-height: 100vh;
     border-bottom: solid .3em #18A7B5;   
 }
+
 
 a {
     color: white;
