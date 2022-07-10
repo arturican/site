@@ -3,17 +3,19 @@ body {
     box-sizing: border-box;
 }
 
-@media (min-width: 900px){
-    header {
-        display: flex;
-        align-items: center;
-        background-color: #1B242F;
-        height: 2.5em;
-        min-height: 100%;
-        max-height: 100vh;
-        border-bottom: solid .3em #18A7B5;
-        
-    }
+.wrapper {
+  width: auto;
+  background-color: gray;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    background-color: #1B242F;
+    height: 2.5em;
+    min-height: 100%;
+    max-height: 100vh;
+    border-bottom: solid .3em #18A7B5;   
 }
 
 
@@ -22,9 +24,20 @@ a {
     font-size: 25px;
     margin-left: 2em;
     text-decoration: none;
-    font-family: Helvetica, sans-serif
+    font-family: 'Josefin Sans', sans-serif;
 }
 
 a:hover {
   color: #FF7170;
+}
+
+h1 {
+  font-family: 'Josefin Sans', sans-serif;
+  text-align: center;
+}
+
+img {
+  display: block;
+  margin: 10px auto;
+  border: solid 3px #18A7B5;
 }
