@@ -1,0 +1,1 @@
+sudo scp -r /mnt/c/reactlite/site/* root@167.99.136.103:/var/www/html
